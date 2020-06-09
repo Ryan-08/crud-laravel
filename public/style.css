@@ -1,0 +1,53 @@
+
+        .main {
+            padding: 20px;
+        } 
+        table, th, td {
+            border: 1px solid black; 
+            border-collapse: collapse;
+        } 
+        th, .cntr{
+            text-align: center;
+        }     
+        .myBtn{
+            padding: 20px 18px;
+        } 
+        .edit{
+            padding: 3px 8px; 
+            color: black;
+        } 
+        .trash{
+            padding: 3px 8px; 
+            color: red;
+        }          
+        .edit:hover{
+            color: white;
+        } 
+        .trash:hover{
+            color: white;
+        }       
+        option {
+            font-weight: normal;
+            display: block;
+            white-space: pre;
+            min-height: 1.2em;
+            padding: 0px 2px 1px;
+        }
+        .dropdown-content{    
+            display: none;
+            position: absolute;            
+            border: 1px solid #990000;
+            z-index: 1;
+            padding: 0px;
+            margin-left:230px;
+        }
+        .dropdown {
+            position: relative;    
+        }
+        .dropdown-content option:hover{
+            background-color: black;
+            color:white
+        }        
+        .show{
+            display: block;
+        }
